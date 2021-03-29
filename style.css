@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+::selection {
+    background: #e76eff; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #e76eff; /* Gecko Browsers */
+  }
+h1 {
+    font-size: 4rem;
+}
+div {
+    margin-top:1rem;
+}
+input {
+    height: 30px;
+    width: 100px;
+    padding: .6rem 1rem;
+    font-size: 1.3rem;
+    background-color: #eee;
+}
+input:-internal-autofill-selected {
+    /* This does nothing... */
+    background-color: green !important;
+}
+button {
+    padding: .5rem .8rem;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+}
+#color-block {
+    margin: 1rem auto 0;
+}
